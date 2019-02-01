@@ -1,6 +1,10 @@
 **How do you print things out the debug area?**
 Write print followed ("") and what you want to print goes in the middle
+print(" ")
+```swift
+print("")
 
+```
 **What is the shortcut to run your app?**
 Command R
 
