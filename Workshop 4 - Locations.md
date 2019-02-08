@@ -1,14 +1,24 @@
 
-Adding a MapView and Annotations to your project:
-Import MapKit
-Display mapView
-Add an annotation
-How do you display a users location on the map
+**Adding a MapView and Annotations to your project:**
+-Import MapKit
+-Display mapView
+-Add an annotation
 
-How do you create a new Custom Annotation file?
+**How do you display a users location on the map**
 
-What 2 types is a Custom Annotation?
+**How do you create a new Custom Annotation file?**
+File - New - File - Swift File
 
-What does CL stand for in CLLocationCoordinate2D?
+**What 2 types is a Custom Annotation?**
 
-How do you add the annotation to the MapView?
+**What does CL stand for in CLLocationCoordinate2D?**
+Core Location
+
+**How do you add the annotation to the MapView?**
+'''swift file
+
+let annotation = CustomAnnotation(address: getAddress)
+        mapView.addAnnotation(annotation)
+'''
+? means optional 
+! means its set
